@@ -76,20 +76,20 @@ const chat = async (prompt) => {
       ,
       {
         role: "user",
-        parts: [{ text: "ราคาไก่ทอด ราคาแมวทอด ราคานก" }],
+        parts: [{ text: "ราคาไก่ทอด ราคาแมวทอด ราคานก จำนวน" }],
       },
       {
         role: "model",
-        parts: [{ text: "ไก่ทอด ราคา 10" }],
+        parts: [{ text: "ไก่ทอด ราคา 105 จำนวน 96" }],
       }
       ,
       {
         role: "user",
-        parts: [{ text: "ราคาหมา" }],
+        parts: [{ text: "ราคาหมา จำนวนหมา มีเท่าไร" }],
       },
       {
         role: "model",
-        parts: [{ text: "หมา ราคา 10" }],
+        parts: [{ text: "หมา ราคา 110 จำนวน 99" }],
       }
     ]
   });
