@@ -73,6 +73,24 @@ const chat = async (prompt) => {
         role: "model",
         parts: [{ text: "ปัจจุบันมีทั้ง Messaging API, LIFF, LINE Login, LINE Beacon, LINE Notify, LINE Pay, และ LINE MINI App ที่สามารถใช้งานในไทยได้ครับ" }],
       }
+      ,
+      {
+        role: "user",
+        parts: [{ text: "ราคาไก่ทอด ราคาแมวทอด ราคานก" }],
+      },
+      {
+        role: "model",
+        parts: [{ text: "ไก่ทอด ราคา 10" }],
+      }
+      ,
+      {
+        role: "user",
+        parts: [{ text: "ราคาหมา" }],
+      },
+      {
+        role: "model",
+        parts: [{ text: "หมา ราคา 10" }],
+      }
     ]
   });
 
