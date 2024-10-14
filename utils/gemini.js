@@ -1,7 +1,7 @@
 const { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } = require("@google/generative-ai");
 
 // แทนที่ process.env.API_KEY ด้วยค่า API Key ของคุณโดยตรง
-const API_KEY = "zhmLsPaOakVPoKEHCENfCkTWlG/d2SirMuJOb2Ga04JJHM2uA9EIowe6VULleejMpVp3rEikNYiN3Gmic/FcM5VHLvnwE+AU1HwabjpQDRjn7ar16UHSLB+pjAzD4wrKfyYW62VL5COP5xDebv+gTgdB04t89/1O/w1cDnyilFU=";  // ใส่ token ของคุณที่นี่
+const API_KEY = "AIzaSyCAJcMdSYMLeVI3EkBojN8tmx3HjDQsuPw";  // ใส่ token ของคุณที่นี่
 // ใส่ API Key ของคุณที่นี่
 const genAI = new GoogleGenerativeAI(API_KEY);
 
