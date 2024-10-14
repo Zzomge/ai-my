@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 // Route for handling webhook events
-app.post('/webhook', async (req, res) => {
+app.post('/api/webhook', async (req, res) => { // Change the path to /api/webhook
   try {
     const events = req.body.events;
 
@@ -34,10 +34,5 @@ app.post('/webhook', async (req, res) => {
   }
 });
 
-// Start the server
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
-
+// Export the Express app as a default export
 module.exports = app;
