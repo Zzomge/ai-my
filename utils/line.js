@@ -1,8 +1,7 @@
 const axios = require("axios");
 
 // แทนที่ process.env.CHANNEL_ACCESS_TOKEN ด้วยค่า token ของคุณโดยตรง
-const CHANNEL_ACCESS_TOKEN = "zhmLsPaOakVPoKEHCENfCkTWlG/d2SirMuJOb2Ga04JJHM2uA9EIowe6VULleejMpVp3rEikNYiN3Gmic/FcM5VHLvnwE+AU1HwabjpQDRjn7ar16UHSLB+pjAzD4wrKfyYW62VL5COP5xDebv+gTgdB04t89/1O/w1cDnyilFU=";  // ใส่ token ของคุณที่นี่
-
+const CHANNEL_ACCESS_TOKEN = "7249a1e1af36547090174c97508711ca"
 const LINE_HEADER = {
   "Content-Type": "application/json",
   Authorization: `Bearer ${CHANNEL_ACCESS_TOKEN}`
